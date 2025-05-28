@@ -1,6 +1,6 @@
 import { HttpClient } from "./core/httpClient";
-import { createWorkService, WorkService } from "./service/work";
-import { AuthorService, createAuthorService } from "./service/author";
+import { createWorkService, type WorkService } from "./service/work";
+import { type AuthorService, createAuthorService } from "./service/author";
 
 export class OpenAlexClient {
   private http: HttpClient;
