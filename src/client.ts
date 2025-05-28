@@ -1,4 +1,4 @@
-import { APIResponse, Work, Author } from "./types";
+import { APIResponse, Work, Author } from "./models";
 
 const BASE_URL = "https://api.openalex.org";
 
