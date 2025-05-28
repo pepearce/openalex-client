@@ -1,0 +1,23 @@
+{
+  "name": "openalex-client",
+  "version": "0.1.0",
+  "description": "TypeScript client for the OpenAlex API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": "https://github.com/yourusername/openalex-client",
+  "keywords": [
+    "openalex",
+    "scholarly",
+    "api",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
